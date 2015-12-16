@@ -1,0 +1,82 @@
+body {
+  background-color: #BFA89E;
+}
+
+.header {
+  text-align: center;
+  color: #283044;
+}
+
+.answer {
+  color: #283044;
+  background-color: #EBF5EE;
+  margin: 0 auto;
+  height: 50px;
+  width: 480px;
+  text-align: right;
+  font-size: 45px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 30px;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+}
+
+.calc {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.calc select {
+  font-size: 20px;
+}
+
+.x {
+  color: #283044;
+  background-color: #EBF5EE;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.y {
+  color: #283044;
+  background-color: #EBF5EE;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.calculate {
+  color: #283044;
+  background-color: rgb(133, 138, 126);
+  width: 200px;
+  font-size: 30px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.invert {
+  color: #283044;
+  background-color: rgb(133, 138, 126);
+  border-radius: 25px;
+  font-size: 30px;
+  width: 45px;
+  margin-top: 30px;
+}
+
+.clear {
+  color: #283044;
+  background-color: rgb(133, 138, 126);
+  margin-top: 30px;
+  font-size: 30px;
+  border-radius: 25px;
+  width: 100px;
+}

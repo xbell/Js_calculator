@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Calculator</title>
+    <script src="/js-calc.js"></script>
+    <link rel="stylesheet" href="/js-calc.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <h1 class="header" id="header">JavaScript Calculator</h1>
+    <div class="answer" id="answer" value="">
+      0
+    </div>
+    <span id="error"></span>
+    <form class="calc" id="calc">
+      <input class="x" type="text" id="x" name="x" value="">
+      <select type="text" id="operator" name="operator">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+        <option>^</option>
+        <option>√</option>
+      </select>
+      <input class="y" type="text" id="y" name="y" value="">
+      <br>
+      <input class="calculate" type="submit" id="calculate" value="="/>
+      <br>
+      <input class="invert" type="submit" id="invert" value="±"/>
+      <br>
+      <button class="clear" type="button" id="clear">CE</button>
+    </form>
+  </body>
+</html>
